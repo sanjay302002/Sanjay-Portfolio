@@ -6,7 +6,8 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/Nesavu.png";
 import chatify from "../../Assets/Projects/Planmart.png";
 
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Milestone from "../../Assets/Projects/Milestone.png";
+import AutomatedCICD from "../../Assets/Projects/Automated CICD.png";
 
 function Projects() {
   return (
@@ -35,15 +36,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Milestone}
               isBlog={false}
-              title="QRCloudGen"
-              description="This project entails creating a serverless QR code generator on AWS Cloud, ensuring real-time generation, scalability, cost-effectiveness, and
-              secure data handling. Leveraging AWS Lambda, API Gateway, and DynamoDB, it facilitates dynamic QR code creation for various
-              applications, offering a seamless solution for businesses and developers.
+              title="Milestone"
+              description="Developed dynamic website for Milestone Promotion, showcasing villas and apartments. Integrated user-friendly interfaces and scheduling
+system, ensuring accuracy of content. Collaborated on marketing strategies for enhanced visibility. Employed responsive design and SEO
+techniques for optimal performance
               "
-              ghLink="https://github.com/sanjay302002/cloudway1"
-              /*demoLink="https://blogs.soumya-jit.tech/"*/
+              ghLink="https://github.com/MILESTONEPROMOTERS"
+              demoLink="https://milestonepromoters.vercel.app/"
             />
           </Col>
 
@@ -60,6 +61,19 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AutomatedCICD}
+              isBlog={false}
+              title="Automated CI/CD"
+              description="Automated CI/CD Pipeline Implementation 2024
+Designed and implemented a fully automated CI/CD pipeline to enhance software delivery efficiency and reliability. Utilized tools such as
+Jenkins, Github CI and Docker to automate the build, test, and deployment processes. Ensured robust infrastructure management using
+Ansible, with comprehensive monitoring and alerting through Grafana."
+              ghLink="https://github.com/sanjay302002/cicd-test"
+              // demoLink="https://nesavu.netlify.app/"              
+            />
+          </Col>
           
         </Row>
       </Container>
