@@ -40,9 +40,7 @@ function Projects() {
               isBlog={false}
               title="Milestone"
               description="Developed dynamic website for Milestone Promotion, showcasing villas and apartments. Integrated user-friendly interfaces and scheduling
-system, ensuring accuracy of content. Collaborated on marketing strategies for enhanced visibility. Employed responsive design and SEO
-techniques for optimal performance
-              "
+system, ensuring accuracy of content. Collaborated on marketing strategies for enhanced visibility. Employed responsive design and SEO techniques for optimal performance."
               ghLink="https://github.com/MILESTONEPROMOTERS"
               demoLink="https://milestonepromoters.vercel.app/"
             />
