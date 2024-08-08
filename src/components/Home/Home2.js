@@ -21,9 +21,7 @@ function Home2() {
             <p className="home-about-body">
             My name is Sanjay, and I am a dedicated HR professional with a strong passion for UI/UX design and DevOps engineering. My journey has allowed me to develop a unique blend of skills, combining a deep understanding of human resources with a creative flair for design and a technical mindset for engineering.
 
-With a background that spans across HR management, user experience design, and cloud technologies, I have honed my ability to navigate complex challenges and deliver solutions that are both innovative and user-centric. I excel at bridging the gap between technical requirements and user needs, ensuring that every project I undertake is not only efficient but also engaging and accessible.
-
-I am driven by a desire to continuously learn and grow, and I am always looking for opportunities to apply my diverse skill set to new challenges. Whether it’s optimizing workflows, enhancing user experiences, or implementing cutting-edge technologies, I am committed to delivering excellence in everything I do.
+With a background that spans across HR management, user experience design, and cloud technologies, I have honed my ability to navigate complex challenges and deliver solutions that are both innovative and user-centric. 
               <br />
               
               <br />
