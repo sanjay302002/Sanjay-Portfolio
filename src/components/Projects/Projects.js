@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import editor from "../../Assets/Projects/Nesavu.png";
-import chatify from "../../Assets/Projects/Planmart.png";
+import frontend from "../../Assets/Projects/frontend.jpg";
+import uiux from "../../Assets/Projects/uiux.jpg";
 
-import Milestone from "../../Assets/Projects/Milestone.png";
+import devops from "../../Assets/Projects/devops.jpg";
 // import AutomatedCICD from "../../Assets/Projects/Automated CICD.png";
 
 function Projects() {
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={uiux}
               isBlog={false}
               title="UI / UX"
               // description="Planmart, an event organizing website, seamlessly developed with HTML, CSS, SQL, PHP, Formspree, and Cognito Forms streamlines
@@ -36,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Milestone}
+              imgPath={devops}
               isBlog={false}
               title="DEVOPS"
 //               description="Developed dynamic website for Milestone Promotion, showcasing villas and apartments. Integrated user-friendly interfaces and scheduling
@@ -48,7 +48,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={frontend}
               isBlog={false}
               title="FRONTEND"
               // description="Nesavu, an Ecommerce platform built with HTML, CSS, and JS specializes in weaving instruments for handloom and powerloom products.
