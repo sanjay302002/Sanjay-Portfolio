@@ -7,7 +7,7 @@ import editor from "../../Assets/Projects/Nesavu.png";
 import chatify from "../../Assets/Projects/Planmart.png";
 
 import Milestone from "../../Assets/Projects/Milestone.png";
-import AutomatedCICD from "../../Assets/Projects/Automated CICD.png";
+// import AutomatedCICD from "../../Assets/Projects/Automated CICD.png";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Planmart"
-              description="Planmart, an event organizing website, seamlessly developed with HTML, CSS, SQL, PHP, Formspree, and Cognito Forms streamlines
-              event management for planning, scheduling, execution, and post-event analysis.
-              On Amazon S3 (Simple Storage Service) is a smart move. It’s reliable, scalable, and integrates well with GitHub."
+              title="UI / UX"
+              // description="Planmart, an event organizing website, seamlessly developed with HTML, CSS, SQL, PHP, Formspree, and Cognito Forms streamlines
+              // event management for planning, scheduling, execution, and post-event analysis.
+              // On Amazon S3 (Simple Storage Service) is a smart move. It’s reliable, scalable, and integrates well with GitHub."
               ghLink="https://github.com/sanjay302002/Planmart-"
               demoLink="https://sanjay302002.github.io/Planmart-/"
             />
@@ -38,9 +38,9 @@ function Projects() {
             <ProjectCard
               imgPath={Milestone}
               isBlog={false}
-              title="Milestone"
-              description="Developed dynamic website for Milestone Promotion, showcasing villas and apartments. Integrated user-friendly interfaces and scheduling
-system, ensuring accuracy of content. Collaborated on marketing strategies for enhanced visibility. Employed responsive design and SEO techniques for optimal performance."
+              title="DEVOPS"
+//               description="Developed dynamic website for Milestone Promotion, showcasing villas and apartments. Integrated user-friendly interfaces and scheduling
+// system, ensuring accuracy of content. Collaborated on marketing strategies for enhanced visibility. Employed responsive design and SEO techniques for optimal performance."
               ghLink="https://github.com/MILESTONEPROMOTERS"
               demoLink="https://milestonepromoters.vercel.app/"
             />
@@ -50,16 +50,22 @@ system, ensuring accuracy of content. Collaborated on marketing strategies for e
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="NESAVU"
-              description="Nesavu, an Ecommerce platform built with HTML, CSS, and JS specializes in weaving instruments for handloom and powerloom products.
-              With a user-friendly interface, it facilitates weavers access to affordable tools, providing both cash on delivery and online payment options.
-              Seamlessly integrating technology, it acts as a cost-effective resource hub, empowering weavers in their craft."
+              title="FRONTEND"
+              // description="Nesavu, an Ecommerce platform built with HTML, CSS, and JS specializes in weaving instruments for handloom and powerloom products.
+              // With a user-friendly interface, it facilitates weavers access to affordable tools, providing both cash on delivery and online payment options.
+              // Seamlessly integrating technology, it acts as a cost-effective resource hub, empowering weavers in their craft."
               ghLink="https://github.com/sanjay302002/Nesavu-Ecommerce"
               demoLink="https://nesavu.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
+            {/* <ProjectCard
+              ghLink="https://github.com/sanjay302002/Nesavu-Ecommerce"
+              demoLink="https://nesavu.netlify.app/"              
+            /> */}
+          </Col>
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={AutomatedCICD}
               isBlog={false}
@@ -71,7 +77,7 @@ Ansible, with comprehensive monitoring and alerting through Grafana."
               ghLink="https://github.com/sanjay302002/cicd-test"
               // demoLink="https://nesavu.netlify.app/"              
             />
-          </Col>
+          </Col> */}
           
         </Row>
       </Container>
