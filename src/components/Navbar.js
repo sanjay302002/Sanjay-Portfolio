@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineLink,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -82,7 +83,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            
+            <Nav.Item>
+              <Nav.Link
+                href="https://your-external-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineLink style={{ marginBottom: "2px" }} /> Connect
+              </Nav.Link>
+            </Nav.Item>
+
 
             
             
