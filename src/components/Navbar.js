@@ -85,7 +85,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://your-external-link.com"
+                href="https://share.hsforms.com/1sU5D2f1sSPSuiO9dcsUhOws323o"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
